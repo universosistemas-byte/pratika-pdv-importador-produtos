@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Importador de Produtos para Pratika PDV
 
-# Run and deploy your AI Studio app
+Aplicação para cadastrar produtos em massa no **Pratika PDV** usando fotos de cardápios. A IA extrai informações da imagem; a pessoa revisa e edita os dados antes de sincronizá-los. O fluxo também contempla grupos e variações de produtos e sugestões de imagens.
 
-This contains everything you need to run your app locally.
+## Executar localmente
 
-View your app in AI Studio: https://ai.studio/apps/0e49a06c-a925-45ae-8fe0-b647deb9c6b8
+1. Instale as dependências: `npm install`.
+2. Configure as variáveis de ambiente indicadas nos arquivos de exemplo do projeto.
+3. Inicie a aplicação: `npm run dev`.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+O projeto usa Vite no frontend e um servidor Node.js. Consulte `package.json` para comandos de build, execução e validação.
